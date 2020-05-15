@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v3.xsd">
+  <guid>5FA14E8E-8C4F-4014-BF53-0A6633513838</guid>
+  <name>ExDOCS_Client_UI</name>
+  <version>1.0.0.1</version>
+  <description>ExcitechDOCS Client UI</description>
+  <publisher>Excitech Ltd.</publisher>
+  <copyright>(c) Excitech Ltd. 2018</copyright>
+  <required-mfiles-version>11.3.4330.143</required-mfiles-version>
+  <platforms>
+    <platform>Desktop</platform>
+  </platforms>
+  <modules>
+    <module environment="shellui">
+      <file>shellmain.js</file>
+    </module>
+    <!--<module environment="vaultui">
+      <file>VaultUI.js</file>
+    </module>-->
+  </modules>
+</application>

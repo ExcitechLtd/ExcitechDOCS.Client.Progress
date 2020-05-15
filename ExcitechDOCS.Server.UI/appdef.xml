@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v1.xsd">
+  <guid>328916A3-DC85-40F1-A14D-7AE9FBDBFDF2</guid>
+  <name>ExcitechDOCS.UIProcessor</name>
+  <description>Excitech DOCS UI Processor Server</description>
+  <publisher>Excitech Ltd.</publisher>
+  <version>1.0.0.47</version>
+  <copyright></copyright>
+  <extension-objects>
+    <extension-object>
+      <name>ExcitechDOCS.UIProcessor</name>
+      <assembly>ExcitechDOCS.Server.UI.dll</assembly>
+      <class>ExcitechDOCS.Server.UI.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>
